@@ -1,83 +1,0 @@
-Dependencies for Project 'Prog-IO with Interrupts', Target 'MCBSTM32E Flash': (DO NOT MODIFY !)
-F (.\startup_stm32f10x_hd.s)(0x56699DDE)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x--list .\flash\startup_stm32f10x_hd.lst --xref -o .\flash\startup_stm32f10x_hd.o --depend .\flash\startup_stm32f10x_hd.d)
-F (.\system_stm32f10x.c)(0x56699DDE)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -D__USE_LCD -o .\flash\system_stm32f10x.o --omf_browse .\flash\system_stm32f10x.crf --depend .\flash\system_stm32f10x.d)
-I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x51C8125A)
-I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
-I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
-I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
-I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x51C8125A)
-F (.\GLCD_16bitIF_STM32.c)(0x56699DDE)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -D__USE_LCD -o .\flash\glcd_16bitif_stm32.o --omf_browse .\flash\glcd_16bitif_stm32.crf --depend .\flash\glcd_16bitif_stm32.d)
-I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x51C8125A)
-I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
-I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
-I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
-I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x51C8125A)
-I (C:\GitHub\Prog-I-O with Interrupts\Boiler Plate\GLCD.h)(0x56699DDE)
-I (C:\GitHub\Prog-I-O with Interrupts\Boiler Plate\Font_6x8_h.h)(0x56699DDE)
-I (C:\GitHub\Prog-I-O with Interrupts\Boiler Plate\Font_16x24_h.h)(0x56699DDE)
-F (.\IRQ.c)(0x56699DF5)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -D__USE_LCD -o .\flash\irq.o --omf_browse .\flash\irq.crf --depend .\flash\irq.d)
-I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x51C8125A)
-I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
-I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
-I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
-I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x51C8125A)
-I (C:\GitHub\Prog-I-O with Interrupts\Boiler Plate\Button_Functions.h)(0x56699DF5)
-F (.\LED_Functions.c)(0x56699DDE)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -D__USE_LCD -o .\flash\led_functions.o --omf_browse .\flash\led_functions.crf --depend .\flash\led_functions.d)
-I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x51C8125A)
-I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
-I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
-I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
-I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x51C8125A)
-F (.\LCD_Functions.c)(0x56699DDE)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -D__USE_LCD -o .\flash\lcd_functions.o --omf_browse .\flash\lcd_functions.crf --depend .\flash\lcd_functions.d)
-I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C819B4)
-I (C:\Keil\ARM\ARMCC\include\string.h)(0x56680FC5)
-I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x51C8125A)
-I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
-I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
-I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
-I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x51C8125A)
-I (C:\GitHub\Prog-I-O with Interrupts\Boiler Plate\GLCD.h)(0x56699DDE)
-I (C:\GitHub\Prog-I-O with Interrupts\Boiler Plate\LCD_Functions.h)(0x56699DDE)
-F (.\Button_Functions.c)(0x56699DF5)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -D__USE_LCD -o .\flash\button_functions.o --omf_browse .\flash\button_functions.crf --depend .\flash\button_functions.d)
-I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x51C8125A)
-I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
-I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
-I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
-I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x51C8125A)
-F (.\Prog-IO with Interrupts.c)(0x5669A58B)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -D__USE_LCD -o ".\flash\prog-io with interrupts.o" --omf_browse ".\flash\prog-io with interrupts.crf" --depend ".\flash\prog-io with interrupts.d")
-I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C819B4)
-I (C:\Keil\ARM\ARMCC\include\string.h)(0x56680FC5)
-I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x51C8125A)
-I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
-I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
-I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
-I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x51C8125A)
-I (C:\GitHub\Prog-I-O with Interrupts\Boiler Plate\GLCD.h)(0x56699DDE)
-I (C:\GitHub\Prog-I-O with Interrupts\Boiler Plate\LED_Functions.h)(0x56699DDE)
-I (C:\GitHub\Prog-I-O with Interrupts\Boiler Plate\LCD_Functions.h)(0x56699DDE)
-I (C:\GitHub\Prog-I-O with Interrupts\Boiler Plate\Button_Functions.h)(0x56699DF5)
-F (.\Exercise1.c)(0x566836C3)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -D__USE_LCD -o .\flash\exercise1.o --omf_browse .\flash\exercise1.crf --depend .\flash\exercise1.d)
-I (C:\GitHub\Prog-I-O with Interrupts\Boiler Plate\GLCD.h)(0x56699DDE)
-I (C:\GitHub\Prog-I-O with Interrupts\Boiler Plate\LCD_Functions.h)(0x56699DDE)
-I (C:\GitHub\Prog-I-O with Interrupts\Boiler Plate\LED_Functions.h)(0x56699DDE)
-I (C:\GitHub\Prog-I-O with Interrupts\Boiler Plate\clock.h)(0x5668256F)
-F (.\Excercise2.c)(0x56683380)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -D__USE_LCD -o .\flash\excercise2.o --omf_browse .\flash\excercise2.crf --depend .\flash\excercise2.d)
-I (C:\GitHub\Prog-I-O with Interrupts\Boiler Plate\GLCD.h)(0x56699DDE)
-I (C:\GitHub\Prog-I-O with Interrupts\Boiler Plate\LED_Functions.h)(0x56699DDE)
-I (C:\GitHub\Prog-I-O with Interrupts\Boiler Plate\LCD_Functions.h)(0x56699DDE)
-I (C:\GitHub\Prog-I-O with Interrupts\Boiler Plate\clock.h)(0x5668256F)
-F (.\Exercise3.c)(0x56684277)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -D__USE_LCD -o .\flash\exercise3.o --omf_browse .\flash\exercise3.crf --depend .\flash\exercise3.d)
-I (C:\GitHub\Prog-I-O with Interrupts\Boiler Plate\GLCD.h)(0x56699DDE)
-I (C:\GitHub\Prog-I-O with Interrupts\Boiler Plate\LCD_Functions.h)(0x56699DDE)
-I (C:\GitHub\Prog-I-O with Interrupts\Boiler Plate\LED_Functions.h)(0x56699DDE)
-I (C:\GitHub\Prog-I-O with Interrupts\Boiler Plate\clock.h)(0x5668256F)
-F (.\clock.c)(0x5668259F)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -D__USE_LCD -o .\flash\clock.o --omf_browse .\flash\clock.crf --depend .\flash\clock.d)
-I (C:\GitHub\Prog-I-O with Interrupts\Boiler Plate\clock.h)(0x5668256F)
-F (.\Abstract.txt)(0x56699DDE)()
